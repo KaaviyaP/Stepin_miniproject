@@ -26,8 +26,8 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 1. ABC
 2. BCD
-3. ...
-4. ...
+3. ..
+4. ..
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
