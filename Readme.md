@@ -1,4 +1,5 @@
 # 555 Timer Calculator 
+## SDLC Activity Based Learning
 ![A7BC2701-F069-4FB9-A138-477B8C6BF2BE](https://user-images.githubusercontent.com/80662569/114295650-3053d500-9ac4-11eb-9db5-83b1d5c104f5.JPEG)
 
 Visit [Pages for Report -optional](using github.io option)
@@ -18,10 +19,10 @@ Folder             | Description
 
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+SF ID. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+`255944` | Kaaviya Perumal  | Feature A, B etc    | X No     | X No   |X No   |X No     
+
 
 ## Challenges Faced and How Was It Overcome
 
