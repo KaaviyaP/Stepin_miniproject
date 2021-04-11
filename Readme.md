@@ -1,4 +1,5 @@
 # 555 Timer Calculator 
+![A7BC2701-F069-4FB9-A138-477B8C6BF2BE](https://user-images.githubusercontent.com/80662569/114295650-3053d500-9ac4-11eb-9db5-83b1d5c104f5.JPEG)
 
 Visit [Pages for Report -optional](using github.io option)
 
