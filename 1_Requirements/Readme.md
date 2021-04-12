@@ -55,7 +55,7 @@ Where, t is in seconds, R is in Ω and C in Farads.
 * The 4th color band indicates the resistors tolerance.
 
 
-![alt-text](https://user-images.githubusercontent.com/80662569/114438921-00045780-9be6-11eb-8ffc-b469118e4d4a.png)![alt-text](https://user-images.githubusercontent.com/80662569/114438930-02ff4800-9be6-11eb-9d28-1572325e35a8.png)
+![alt-text](https://user-images.githubusercontent.com/80662569/114440855-45298900-9be8-11eb-8cae-826aef6af41c.jpg)![alt-text](https://user-images.githubusercontent.com/80662569/114438930-02ff4800-9be6-11eb-9d28-1572325e35a8.png)
 
 5 band color code resistor
 * The 1st color band indicates the 1st significant value or 1st digit of the resistors value.
@@ -64,7 +64,7 @@ Where, t is in seconds, R is in Ω and C in Farads.
 * The 4th color band is the decimal multiplier.
 * The 5th color band indicates the resistors tolerance.
 
-![alt-text](https://user-images.githubusercontent.com/80662569/114438943-0692cf00-9be6-11eb-8a85-dfa2517b066c.png)![alt-text](https://user-images.githubusercontent.com/80662569/114438957-098dbf80-9be6-11eb-8063-af326a642a8d.png)
+![alt-text](https://user-images.githubusercontent.com/80662569/114440878-4c509700-9be8-11eb-9d06-c4ac2d470523.jpg)![alt-text](https://user-images.githubusercontent.com/80662569/114438957-098dbf80-9be6-11eb-8063-af326a642a8d.png)
 
 ### Capacitance Code Calculator
 Ceramic capacitors encoding consists 1-3 digits.
