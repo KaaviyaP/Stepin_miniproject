@@ -36,7 +36,7 @@ This 555 timer monostable circuit calculator can be used to
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![alt-text](https://user-images.githubusercontent.com/80662569/114422886-49e44200-9bd4-11eb-8eba-985bfbf76c31.png)
 
 # 4W&#39;s and 1&#39;H
 
