@@ -47,6 +47,29 @@ The Monostable 555 Timer circuit triggers on a negative-going pulse applied to p
 
 Where, t is in seconds, R is in Ω and C in Farads.
 
+### Resistor Code Calculator
+4 band color code resistor
+* The 1st color band on the resistor indicates the 1st significant value or 1st digit of the resistors resistance and 
+* The 2nd color band indicates 2nd significant value or 2nd digit of the resistors resistance. 
+* The 3rd color band is the decimal multiplier and 
+* The 4th color band indicates the resistors tolerance.
+
+
+![alt-text](https://user-images.githubusercontent.com/80662569/114438921-00045780-9be6-11eb-8ffc-b469118e4d4a.png)![alt-text](https://user-images.githubusercontent.com/80662569/114438930-02ff4800-9be6-11eb-9d28-1572325e35a8.png)
+
+5 band color code resistor
+* The 1st color band indicates the 1st significant value or 1st digit of the resistors value.
+* The 2nd color band indicates the 2nd significant value or 2nd digit of the resistor value.
+* The 3rd color band indicates the 3rd significant value or 3rd digit of the resistors value.
+* The 4th color band is the decimal multiplier.
+* The 5th color band indicates the resistors tolerance.
+
+![alt-text](https://user-images.githubusercontent.com/80662569/114438943-0692cf00-9be6-11eb-8a85-dfa2517b066c.png)![alt-text](https://user-images.githubusercontent.com/80662569/114438957-098dbf80-9be6-11eb-8063-af326a642a8d.png)
+
+### Capacitance Code Calculator
+Ceramic capacitors encoding consists 1-3 digits.
+If the capacitor code consist only 1 or 2 digits, it is simply their capacitance value in PicoFarads (pF).
+For 3 digit’s capacitor code, the first two digits are the capacitance value in pF and the third digit is a multiplier factor of first two digits to calculate the final capacitance value of the capacitor.The 3rd digit ranges between 0-6. It can’t exceed more than 6.
 
 ## SWOT ANALYSIS
 ![alt-text](https://user-images.githubusercontent.com/80662569/114427923-3687a580-9bd9-11eb-8cb6-0ef7767aa458.png)
