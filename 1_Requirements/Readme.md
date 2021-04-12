@@ -41,24 +41,20 @@ This 555 timer monostable circuit calculator can be used to
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-
-**TBD**
+Students(especially electronics and electrical background) to save time from tedious calculations.
 
 ## What:
-
-**TBD**
+Looking at the spec sheets for an electronic equipment every-time is tiresome. So, A Calculator to find the pulse width of a monostable configured 555 timer, alongside converting codes of resistors and capacitors into their values.
 
 ## When:
-
-**TBD**
+As technologies grow more complex everyday, it'll serve as a tool to make work easier.
 
 ## Where:
+Applications for Monostable Circuits like Touch Switch, Servo Motor Testers,Missing pulse detection, Bounce-free switches,Frequency divider,Capacitance measurement, Pulse-width modulation (PWM).
 
-**TBD**
 
 ## How:
-
-**TBD**
+Takes R and C codes as inputs, converts them into their respective values and determines the Output pulse width.
 
 # Detail requirements
 ## High Level Requirements:
