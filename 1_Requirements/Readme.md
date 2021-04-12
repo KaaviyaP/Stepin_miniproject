@@ -6,7 +6,11 @@ This 555 timer monostable circuit calculator can be used to get the output pulse
  
 
 ## Research
+
+![alt text](https://user-images.githubusercontent.com/80662569/114384494-68cede00-9bac-11eb-9fa0-83962f6f880c.PNG)
+
 This is a simple circuit to make the 555 timer IC to work in Monostable mode. Whenever the push button connected to Trigger pin (pin 2) is pressed a trigger pulse is detected by the 555 IC and so it will trigger the output pulse on its output pin (pin 3) as shown in the waveform below.
+
 
 This output pulse will stay high based on its pulse width. This output pulse width sets the pre-defined time and as said earlier it can be set by selecting the correct values of Resistor (R) and Capacitor (C) using the below formulae.
 
