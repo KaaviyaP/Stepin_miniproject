@@ -38,7 +38,7 @@ Assumptions:
 * Resistors are 4/5 band resistors
 * Capacitors are ceramic capacitors
 
- ![alt-text](https://user-images.githubusercontent.com/80662569/114436108-98004200-9be2-11eb-8429-e8c9865818bb.png)
+ ![alt-text](https://user-images.githubusercontent.com/80662569/114438857-ef53e180-9be5-11eb-81df-2b893c3fe548.png)
 
 This calculator computes for the output pulse width of a 555 Timer monostable circuit by taking inputs of R and C as their respective codes.
 The Monostable 555 Timer circuit triggers on a negative-going pulse applied to pin 2 and this trigger pulse must be much shorter than the output pulse width allowing time for the timing capacitor to charge and then discharge fully. Once triggered, the 555 Monostable will remain in this “HIGH” unstable output state until the time period set up by the R x C network has elapsed. The amount of time that the output voltage remains “HIGH” or at a logic “1” level, is given by the following time constant equation.
