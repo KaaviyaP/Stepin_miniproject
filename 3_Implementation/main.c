@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
 #include "timer_calculator.h"
 
 #define VALID   (1)

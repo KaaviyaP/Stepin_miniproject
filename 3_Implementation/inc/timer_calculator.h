@@ -8,6 +8,7 @@
 #define __TIMER_CALCULATOR_H__
 
 #include <stdio.h>
+#include <math.h>
 #include <stdlib.h>
 
 
