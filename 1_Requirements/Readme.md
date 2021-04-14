@@ -94,10 +94,22 @@ Takes R and C codes as inputs, converts them into their respective values and de
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+| ID    | Description             | Status (Implemented/Future)|
+| ------|-------------------------|----------------------------|
+| HR01  |Resistor code conversion |        Implemented         |
+| HR02  |Capacitor code conversion|        Implemented         |
+| HR03  |Pulse width calculator   |        Implemented         |
+
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+| ID    | Description                       | Status (Implemented/Future)|
+| ------|-----------------------------------|----------------------------|
+| LR01  |4 band resistor code values        |        Implemented         |
+| LR02  |5 band resistor code values        |        Implemented         |
+| LR03  |Tolerance of the resistors         |        Future              |
+| LR04  |1 digit capacitor code conversion  |        Implemented         |
+| LR05  |2 digit capacitor code conversion  |        Implemented         |
+| LR06  |3 digit capacitor code conversion  |        Implemented         |
