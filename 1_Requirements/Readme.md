@@ -31,8 +31,9 @@ This 555 timer monostable circuit calculator can be used to
 
 
 ## Cost and Features
-![Description](Link to Pic)
--- Content 
+Time : 10 days
+Scope: Future Technological advancement
+Cost : Cost to be evaluated only during implementation 
 ## Defining Our System
 Assumptions:
 * Resistors are 4/5 band resistors
