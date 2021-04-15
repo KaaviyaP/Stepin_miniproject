@@ -54,7 +54,6 @@ Where, t is in seconds, R is in Ω and C in Farads.
 * The 3rd color band is the decimal multiplier and 
 * The 4th color band indicates the resistors tolerance.
 
-
 ![alt-text](https://user-images.githubusercontent.com/80662569/114440855-45298900-9be8-11eb-8cae-826aef6af41c.jpg)![alt-text](https://user-images.githubusercontent.com/80662569/114438930-02ff4800-9be6-11eb-9d28-1572325e35a8.png)
 
 5 band color code resistor
@@ -87,7 +86,6 @@ As technologies grow more complex everyday, it'll serve as a tool to make work e
 
 ## Where:
 Applications for Monostable Circuits like Touch Switch, Servo Motor Testers,Missing pulse detection, Bounce-free switches,Frequency divider,Capacitance measurement, Pulse-width modulation (PWM).
-
 
 ## How:
 Takes R and C codes as inputs, converts them into their respective values and determines the Output pulse width.
