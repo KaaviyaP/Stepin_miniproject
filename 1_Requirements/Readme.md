@@ -15,13 +15,13 @@ This is a simple circuit to make the 555 timer IC to work in Monostable mode. Wh
 
 This output pulse will stay high based on its pulse width. This output pulse width sets the pre-defined time and as said earlier it can be set by selecting the correct values of Resistor (R) and Capacitor (C) using the below formulae.
 
-   **Output Pulse Width (secs) = 1.1 x R x C**
+###### Output Pulse Width (secs) = 1.1 x R x C
    
    **Features:**
 
 This 555 timer monostable circuit calculator can be used to 
-*	Get the output pulse width (delay time). In Monostable mode of 555 timer IC, when power is applied, the output remains low for the Delay time and then becomes high and remains high, or vice versa.
-*	Along with that, the program also automatically computes the resistor value from the colour bands entered and capacitor value from the code entered by the user.
+  *  Get the output pulse width (delay time). In Monostable mode of 555 timer IC, when power is applied, the output remains low for the Delay time and then becomes high and remains high, or vice versa.
+  *  Along with that, the program also automatically computes the resistor value from the colour bands entered and capacitor value from the code entered by the user.
 
 **Benefits:**
 
@@ -43,7 +43,7 @@ Assumptions:
 This calculator computes for the output pulse width of a 555 Timer monostable circuit by taking inputs of R and C as their respective codes.
 The Monostable 555 Timer circuit triggers on a negative-going pulse applied to pin 2 and this trigger pulse must be much shorter than the output pulse width allowing time for the timing capacitor to charge and then discharge fully. Once triggered, the 555 Monostable will remain in this “HIGH” unstable output state until the time period set up by the R x C network has elapsed. The amount of time that the output voltage remains “HIGH” or at a logic “1” level, is given by the following time constant equation.
 
-**τ = 1.1RC**
+###### τ = 1.1RC
 
 Where, t is in seconds, R is in Ω and C in Farads.
 
