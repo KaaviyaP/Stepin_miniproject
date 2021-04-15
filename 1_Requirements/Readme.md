@@ -29,7 +29,6 @@ This 555 timer monostable circuit calculator can be used to
 *	These is no confusion for Data conversion and calculation. Easy to use.
 *	No need to look through the spec sheet and the hand calculator any time one needs to find the values for a one-shot monostable setup.
 
-
 ## Cost and Features
 Time : 10 days
 Scope: Future Technological advancement
@@ -104,7 +103,7 @@ Takes R and C codes as inputs, converts them into their respective values and de
 
 
 
-##  Low level Requirements:
+## Low level Requirements:
 
 | ID    | Description                       | Status (Implemented/Future)|
 | ------|-----------------------------------|----------------------------|
