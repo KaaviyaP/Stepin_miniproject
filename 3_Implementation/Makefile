@@ -1,6 +1,5 @@
-
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = timer_calculator
 
 # Output directory
 BUILD = build
