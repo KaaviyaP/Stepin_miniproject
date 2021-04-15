@@ -2,8 +2,14 @@
 PROJ_NAME = timer_calculator
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
+
+
 # All source code files
-SRC = src/timer_calculator.c
+SRC = src/timer_calculator.c \
+src/capacitor.c \
+src/resistor.c
+
+
 # All test source files
 TEST_SRC = test/test_calculator.c\
 unity/unity.c
