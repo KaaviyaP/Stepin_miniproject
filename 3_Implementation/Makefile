@@ -60,7 +60,7 @@ run:$(PROJECT_OUTPUT).out
 
 # Build and run the unit tests
 test:$(SRC) $(TEST_SRC)
-	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(TEST_OUTPUT)) -lm
+	gcc $^ $(TEST_SRC) $(INC) -o $(call FixPath,$(TEST_OUTPUT)) -lm
 	$(call FixPath, $(TEST_OUTPUT))
 #Coverage
 coverageCheck:$(BUILD)
