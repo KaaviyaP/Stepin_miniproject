@@ -8,16 +8,19 @@
 
 /* Calculator operation requested by user*/
 int calculator_operation = 0;
+int r=0;
 
 /* Operands on which calculation is performed */
 char code1 = ' ';
 char code2 = ' ';
 char code3 = ' ';
+char code4 = ' ';
+char code5 = ' ';
 int band=0;
 int code = 0;
-
+char cc=' ';
 /* Valid operations */
-enum operations{ RESISTOR=1, CAPACITOR, PULSE, EXIT };
+enum operations{ RESISTOR4=1,RESISTOR5, CAPACITOR, PULSE, EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -38,7 +41,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Resistor\n2. Capacitor\n3. Pulse\n4. Exit");
+    printf("\n1. 4_Band_Resistor \n2. 5_Band_Resistor \n3. Capacitor\n4. Pulse\n5. Exit");
     printf("\n\tEnter your choice\n");
    
      
@@ -52,10 +55,20 @@ void calculator_menu(void)
 
     if(INVALID != valid_operation(calculator_operation))
     {
-        if(calculator_operation== RESISTOR){
-            printf("\n\tEnter your values with space between them\n");
-           
-            scanf("%d %c %c %c", &band,&code1,&code2,&code3); 
+        if(calculator_operation== RESISTOR4){
+            
+            printf("\n\tEnter your 4 bands with space between them\n");
+            scanf("%c",&cc);
+            scanf("%c %c %c %c",&code1,&code2,&code3,&code4); 
+            
+            
+                 
+        }
+        else if(calculator_operation== RESISTOR5){
+            
+                printf("\n\tEnter your 5 bands with space between them\n");
+                scanf("%c",&cc);
+                scanf("%c %c %c %c %c",&code1,&code2,&code3,&code4, &code5); 
         }
         else if(calculator_operation==CAPACITOR){
             printf("\n\tEnter your code\n");
@@ -63,9 +76,9 @@ void calculator_menu(void)
             scanf("%d", &code);
         }
         else if(calculator_operation==PULSE){
-            printf("\n\tEnter your values with space between them\n");
-           
-            scanf("%d %c %c %c %d", &band,&code1,&code2,&code3,&code); 
+            printf("\n\tEnter your 4 rcodes and C with space between them\n");
+           scanf("%c",&cc);
+            scanf("%c %c %c %c %d", &code1,&code2,&code3,&code4,&code); 
         }
         
     }
@@ -79,9 +92,12 @@ void calculator_menu(void)
     }
     switch(calculator_operation)
     {
-        case RESISTOR:
-            printf("\n\tResistance = %d\nEnter to continue",resistor( band, code1, code2, code3));
-            
+        case RESISTOR4:
+            printf("\n\tResistance = %d\nEnter to continue",resistor4(code1, code2, code3,code4));
+            getchar();
+            break;
+        case RESISTOR5:
+            printf("\n\tResistance = %d\nEnter to continue",resistor5(code1, code2, code3,code4,code5));
             getchar();
             break;
         case CAPACITOR:
@@ -90,7 +106,7 @@ void calculator_menu(void)
             getchar();
             break;
         case PULSE:
-           printf("\n\tPulse Width = %f\nEnter to continue",pulse(band, code1, code2, code3, code));
+           printf("\n\tPulse Width = %f\nEnter to continue",pulse( code1, code2, code3,code4, code));
             
             getchar();
             break;
@@ -105,5 +121,5 @@ void calculator_menu(void)
 int valid_operation(int operation)
 {
     /* Check if the operation is a valid operation */
-    return ((RESISTOR <= operation) && (EXIT >= operation)) ? VALID: INVALID;
+    return ((RESISTOR4 <= operation) && (EXIT >= operation)) ? VALID: INVALID;
 }

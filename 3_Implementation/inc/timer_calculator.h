@@ -24,8 +24,20 @@ int capacitor(int code);
  * @param[in] code1
  * @param[in] code2
  * @param[in] code3
+ * @param[in] code4
  */
-int resistor(int band,char code1,char code2,char code3);
+int resistor4(char code1,char code2,char code3,char code4);
+
+/**
+ * @calculates resistance from codes 
+ * @param[in] band
+ * @param[in] code1
+ * @param[in] code2
+ * @param[in] code3
+ * @param[in] code4
+ * @param[in] code5
+ */
+int resistor5(char code1,char code2,char code3,char code4,char code5);
 
 /**
  * Calculates the time pulse width
@@ -35,5 +47,5 @@ int resistor(int band,char code1,char code2,char code3);
  * @param[in] code3
  * @param[in] code
  */
-double pulse(int band,char code1,char code2,char code3,int code);
+double pulse(char code1,char code2,char code3,char code4,int code);
 #endif  /* #define __TIMER_CALCULATOR_H__ */

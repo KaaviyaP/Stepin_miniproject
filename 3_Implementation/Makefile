@@ -7,7 +7,8 @@ TEST_PROJ_NAME = Test_$(PROJ_NAME)
 # All source code files
 SRC = src/timer_calculator.c \
 src/capacitor.c \
-src/resistor.c
+src/resistor4.c \
+src/resistor5.c
 
 
 # All test source files

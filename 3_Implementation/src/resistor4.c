@@ -7,7 +7,7 @@ void    colorcodes( void );
 int  decode( char code );
 
 
-int resistor(int band,char c1,char c2,char c3){
+int resistor4(char c1,char c2,char c3,char c4){
    
        
     int  resistance=0;
@@ -17,6 +17,10 @@ int resistor(int band,char c1,char c2,char c3){
         color1 = decode( c1 );
         color2 = decode( c2 );
         color3 = decode( c3 );
+
+        printf("%d", color1);
+         printf("%d", color2);
+          printf("%d", color3);
      
         if ( color1 == -999  ||  color2 == -999  ||
           color3 == -999 ){
