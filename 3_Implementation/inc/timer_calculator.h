@@ -41,11 +41,22 @@ int resistor5(char code1,char code2,char code3,char code4,char code5);
 
 /**
  * Calculates the time pulse width
- * @param[in] band
  * @param[in] code1
  * @param[in] code2
  * @param[in] code3
+ * @param[in] code4
  * @param[in] code
  */
-double pulse(char code1,char code2,char code3,char code4,int code);
+double pulse4(char code1,char code2,char code3,char code4,int code);
+
+/**
+ * Calculates the time pulse width
+ * @param[in] code1
+ * @param[in] code2
+ * @param[in] code3
+ * @param[in] code4
+ * @param[in] code5
+ * @param[in] code
+ */
+double pulse5(char code1,char code2,char code3,char code4,char code5,int code);
 #endif  /* #define __TIMER_CALCULATOR_H__ */

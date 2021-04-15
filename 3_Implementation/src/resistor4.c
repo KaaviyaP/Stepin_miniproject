@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "timer_calculator.h"
 
-void    colorcodes( void );     
+    
 int  decode( char code );
 
 
@@ -35,23 +35,6 @@ int resistor4(char c1,char c2,char c3,char c4){
         
 }
 
-    
-void  colorcodes( void )
-{
-   
-   printf( "Color\t\t\tCode\n\t" );
-   printf( "-----\t\t\t----\n\n" );
-   printf( "\tBlack------> B\n" );
-   printf( "\tBrown------> N\n" );
-   printf( "\tRed--------> R\n" );
-   printf( "\tOrange-----> O\n" );
-   printf( "\tYellow-----> Y\n" );
-   printf( "\tGreen------> G\n" );
-   printf( "\tBlue-------> E\n" );
-   printf( "\tViolet-----> V\n" );
-   printf( "\tGray-------> A\n" );
-   printf( "\tWhite------> W\n" );
-}
 
 
 int decode( char code )
