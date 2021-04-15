@@ -56,8 +56,8 @@ void test_capacitor(void) {
 }
 
 void test_pulse4(void) {
-  TEST_ASSERT_EQUAL(2.2,pulse('N','B','R','R',205) );
-  TEST_ASSERT_EQUAL(4.4,pulse('R','B','R','O',205) );
+  TEST_ASSERT_EQUAL(2.2,pulse4('N','B','R','R',205) );
+  TEST_ASSERT_EQUAL(4.4,pulse4('R','B','R','O',205) );
 }
 
 void test_pulse5(void) {
