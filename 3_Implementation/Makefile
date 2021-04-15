@@ -1,19 +1,7 @@
 PROJ_NAME = Calculator
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-BUILD_DIR = Build
-
-SRC = src/timer_calculator.c
-
-TEST_SRC = test/test_calculator.c\
-unity/unity.c
-
-INC = -Iinc\
--Iunity
-
-TEST_OUTPUT = $(call FixPath,$(BUILD)/Test_$(PROJECT_NAME).$(EXEC))
-
-INCLUDE_LIBS = -lcunit
+BUILD_DIR = ./Build
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
@@ -27,6 +15,20 @@ else
 	  EXEC = out
    endif
 endif
+
+SRC = src/timer_calculator.c
+
+TEST_SRC = test/test_calculator.c\
+unity/unity.c
+
+INC = -Iinc\
+-Iunity
+
+TEST_OUTPUT = $(call FixPath,$(BUILD)/Test_$(PROJECT_NAME).$(EXEC))
+
+INCLUDE_LIBS = -lcunit
+
+
 
 # Makefile will not run target command if the name with file already exists. To override, use .PHONY
 .PHONY : all test coverage run clean doc
