@@ -29,7 +29,6 @@ This 555 timer monostable circuit calculator can be used to
 *	These is no confusion for Data conversion and calculation. Easy to use.
 *	No need to look through the spec sheet and the hand calculator any time one needs to find the values for a one-shot monostable setup.
 
-
 ## Cost and Features
 Time : 10 days
 Scope: Future Technological advancement
@@ -54,7 +53,6 @@ Where, t is in seconds, R is in Ω and C in Farads.
 * The 2nd color band indicates 2nd significant value or 2nd digit of the resistors resistance. 
 * The 3rd color band is the decimal multiplier and 
 * The 4th color band indicates the resistors tolerance.
-
 
 ![alt-text](https://user-images.githubusercontent.com/80662569/114440855-45298900-9be8-11eb-8cae-826aef6af41c.jpg)![alt-text](https://user-images.githubusercontent.com/80662569/114438930-02ff4800-9be6-11eb-9d28-1572325e35a8.png)
 
@@ -89,7 +87,6 @@ As technologies grow more complex everyday, it'll serve as a tool to make work e
 ## Where:
 Applications for Monostable Circuits like Touch Switch, Servo Motor Testers,Missing pulse detection, Bounce-free switches,Frequency divider,Capacitance measurement, Pulse-width modulation (PWM).
 
-
 ## How:
 Takes R and C codes as inputs, converts them into their respective values and determines the Output pulse width.
 
@@ -104,7 +101,7 @@ Takes R and C codes as inputs, converts them into their respective values and de
 
 
 
-##  Low level Requirements:
+## Low level Requirements:
 
 | ID    | Description                       | Status (Implemented/Future)|
 | ------|-----------------------------------|----------------------------|

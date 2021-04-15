@@ -6,7 +6,8 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI - Build Status](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/c-cpp.yml) | [![Dynamic Valgrind](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml)[![Code Quality - Static Code - Cppcheck](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/cppcheck.yml)| [![Unity - Unit Testing](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/unity.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/gitinspector.yml)
+[![C/C++ CI - Build Status](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/c-cpp.yml) | [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/CodeQuality_Dynamic.yml)[![Code Quality - Static Code - Cppcheck](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/cppcheck.yml)| [![Unit Testing - Unity](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/unity.yml/badge.svg)](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/KaaviyaP/Stepin_miniproject/actions/workflows/gitinspector.yml)
+
 
 ## Folder Structure
 Folder             | Description
@@ -25,14 +26,8 @@ SF ID. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ..
-4. ..
+1. Was not sure how to start the approach to the multifile programming, but UML diagrams gave a clear view on how to approach and start the project.
+2. Since I have an electronics background,a lot of things were new to me.I also had some issues to keep my pace up at the begining but practicing daily helped me to overcome the lag.
+3. Had issues in the Makefile generation, but there were lot of resources to learn the syntax from.
 
-## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
 
