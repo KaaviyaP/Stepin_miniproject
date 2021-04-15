@@ -49,7 +49,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJECT_OUTPUT).$(EXEC)) -lm
+	gcc main.c $(SRC) $(INC) -o $(call FixPath,$(PROJECT_OUTPUT).$(EXEC)) -lm
 
 # Call `make run` to run the application
 run:$(PROJECT_OUTPUT).out
