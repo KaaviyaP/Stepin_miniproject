@@ -7,7 +7,7 @@
 #define INVALID (0)
 
 /* Calculator operation requested by user*/
-unsigned int calculator_operation = 0;
+int calculator_operation = 0;
 
 /* Operands on which calculation is performed */
 char code1 = ' ';

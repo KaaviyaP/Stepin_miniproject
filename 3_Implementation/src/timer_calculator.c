@@ -5,7 +5,7 @@
 
 int capacitor(int code){
     
-    int cvalue;
+    int cvalue=0;
     if(code>=999 || code<=0){
         printf("INVALID INPUT");
     }
@@ -30,7 +30,7 @@ int  decode( char code );
 int resistor(int band,char c1,char c2,char c3){
    
        
-    int  resistance;
+    int  resistance=0;
     int  color1, color2, color3;  
        
         
