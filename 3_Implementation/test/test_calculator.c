@@ -7,7 +7,8 @@
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
-void test_resistor(void);
+void test_resistor4(void);
+void test_resistor5(void);
 void test_capacitor(void);
 void test_pulse(void);
 
