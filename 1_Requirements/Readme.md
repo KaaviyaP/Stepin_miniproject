@@ -17,12 +17,6 @@ This output pulse will stay high based on its pulse width. This output pulse wid
 
 ###### Output Pulse Width (secs) = 1.1 x R x C
    
-   **Features:**
-
-This 555 timer monostable circuit calculator can be used to 
-  *  Get the output pulse width (delay time). In Monostable mode of 555 timer IC, when power is applied, the output remains low for the Delay time and then becomes high and remains high, or vice versa.
-  *  Along with that, the program also automatically computes the resistor value from the colour bands entered and capacitor value from the code entered by the user.
-
 **Benefits:**
 
 *	This combines 3 different calculators- A Resistor band Calculator, A Capacitance code calculator and a 555 Timer Pulse Width Calculator. All the three can be calculated at one place.
@@ -30,9 +24,16 @@ This 555 timer monostable circuit calculator can be used to
 *	No need to look through the spec sheet and the hand calculator any time one needs to find the values for a one-shot monostable setup.
 
 ## Cost and Features
-Time : 10 days
-Scope: Future Technological advancement
-Cost : Cost to be evaluated only during implementation 
+* Time : 10 days
+* Scope: Future Technological advancement
+* Cost : Cost to be evaluated only during implementation 
+
+ **Features:**
+
+This 555 timer monostable circuit calculator can be used to 
+  *  Get the output pulse width (delay time). In Monostable mode of 555 timer IC, when power is applied, the output remains low for the Delay time and then becomes high and remains high, or vice versa.
+  *  Along with that, the program also automatically computes the resistor value from the colour bands entered and capacitor value from the code entered by the user.
+
 ## Defining Our System
 Assumptions:
 * Resistors are 4/5 band resistors
@@ -93,11 +94,13 @@ Takes R and C codes as inputs, converts them into their respective values and de
 # Detail requirements
 ## High Level Requirements:
 
-| ID    | Description             | Status (Implemented/Future)|
-| ------|-------------------------|----------------------------|
-| HR01  |Resistor code conversion |        Implemented         |
-| HR02  |Capacitor code conversion|        Implemented         |
-| HR03  |Pulse width calculator   |        Implemented         |
+| ID    | Description                             | Status (Implemented/Future)|
+| ------|-----------------------------------------|----------------------------|
+| HR01  |Resistor code conversion and calculation |        Implemented         |
+| HR02  |Capacitor code conversion and calculation|        Implemented         |
+| HR03  |Pulse width calculator - Monostable mode |        Implemented         |
+| HR03  |Pulse width calculator - Astable mode    |        Future              |
+
 
 
 
@@ -105,8 +108,8 @@ Takes R and C codes as inputs, converts them into their respective values and de
 
 | ID    | Description                       | Status (Implemented/Future)|
 | ------|-----------------------------------|----------------------------|
-| LR01  |4 band resistor code values        |        Implemented         |
-| LR02  |5 band resistor code values        |        Implemented         |
+| LR01  |4 band resistor code conversion    |        Implemented         |
+| LR02  |5 band resistor code conversion    |        Implemented         |
 | LR03  |Tolerance of the resistors         |        Future              |
 | LR04  |1 digit capacitor code conversion  |        Implemented         |
 | LR05  |2 digit capacitor code conversion  |        Implemented         |
