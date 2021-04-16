@@ -148,24 +148,28 @@ void menu(void)
     switch(operation)
     {
         case RESISTOR4:
-            printf("\n\tResistance = %d\nEnter to continue",resistor4(code1, code2, code3,code4));
+            printf("\n\t\nEnter to continue");
+            resistor4(code1, code2, code3,code4);
             getchar();
             break;
         case RESISTOR5:
-            printf("\n\tResistance = %d\nEnter to continue",resistor5(code1, code2, code3,code4,code5));
+            printf("\n\t\nEnter to continue");
+            resistor5(code1, code2, code3,code4,code5);
             getchar();
             break;
         case CAPACITOR:
-            printf("\n\tCapacitance = %d\nEnter to continue",capacitor( code));       
+            printf("\n\t\nEnter to continue");
+            capacitor( code);
             getchar();
             break;
         case PULSE4:
-           printf("\n\tPulse Width = %f\nEnter to continue",pulse4( code1, code2, code3,code4, code));
-            
+            printf("\n\t\nEnter to continue\n");
+            pulse4( code1, code2, code3,code4, code);
             getchar();
             break;
         case PULSE5:
-           printf("\n\tPulse Width = %f\nEnter to continue",pulse5( code1, code2, code3,code4,code5, code));   
+             printf("\n\t\nEnter to continue\n");
+            pulse5( code1, code2, code3,code4,code5, code);   
             getchar();
             break;
         case 6:

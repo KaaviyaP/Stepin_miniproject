@@ -17,7 +17,7 @@ int capacitor(int code){
         int dig=code/10;
         cvalue=dig*pow( 10, mul );
     }
-    printf("Capacitance value: %d", cvalue);
+    printf("\n\nCapacitance value: %d", cvalue);
     printf("pF\n");
     return cvalue;
 }

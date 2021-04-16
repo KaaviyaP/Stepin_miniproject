@@ -18,10 +18,6 @@ int resistor4(char c1,char c2,char c3,char c4){
         color2 = decode( c2 );
         color3 = decode( c3 );
 
-        printf("%d", color1);
-         printf("%d", color2);
-          printf("%d", color3);
-     
         if ( color1 == -999  ||  color2 == -999  ||
           color3 == -999 ){
           printf( "\n\n\tINVALID CODE\n" );}
