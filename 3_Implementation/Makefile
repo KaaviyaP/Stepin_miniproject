@@ -47,7 +47,7 @@ run:
 # Document the code using Doxygen
 doc:
 	make -C ./documentation
-	
+
 test:
 	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC)) -lm
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
@@ -81,3 +81,4 @@ clean:
 	$(RM) *.gcda
 	$(RM) *.gcno
 	$(RM) *.c.gcov
+	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
