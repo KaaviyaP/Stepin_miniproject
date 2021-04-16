@@ -44,6 +44,7 @@ all:
 run:
 	$(call FixPath,$(PROJ_NAME).$(EXEC))
 
+
 # Document the code using Doxygen
 doc:
 	make -C ./documentation
