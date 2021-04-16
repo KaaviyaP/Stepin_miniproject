@@ -13,5 +13,5 @@
 | **Test ID** | **Description**                                              | **Exp IN**     | **Exp OUT**     | **Actual Out**  |**Type Of Test**   |    
 |-------------|--------------------------------------------------------------|----------------|-----------------|-----------------|-------------------|
 |  L_01       |Calculating pulse width when capacitance code>999(Invalid)    |Y E B W 1002    |0.0 ms           |0.0 ms           | Boundary based    |
-|  L_02       |Calculating Resistance when band code is invalid              | G E H B        |0 ohms Wrong code|0 ohms Wrong code| Scenario based    |
-|  L_03       |Calculating capacitance with capacitor code>100               | 1043           |0pF INVALID INPUT|0pF INVALID INPUT| Boundary based    |
+|  L_02       |Calculating Resistance when band code is invalid              | H W V N        |-1(INVALID CODE) |-1(INVALID CODE) | Scenario based    |
+|  L_03       |Calculating capacitance with capacitor code>999               | 1453           |-1(INVALID INPUT)|-1(INVALID INPUT)| Boundary based    |
