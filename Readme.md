@@ -21,13 +21,14 @@ Folder             | Description
 
 SF ID. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`255944` | Kaaviya Perumal  | Feature A, B etc    | X No     | X No   |X No   |X No     
+`255944` | Kaaviya Perumal  | Calculates resistance, Capacitance, Pulse width in a 555 Timer    | -     | -   |5   |5    
 
 
 ## Challenges Faced and How Was It Overcome
 
 1. Was not sure how to start the approach to the multifile programming, but UML diagrams gave a clear view on how to approach and start the project.
-2. Since I have an electronics background,a lot of things were new to me.I also had some issues to keep my pace up at the begining but practicing daily helped me to overcome the lag.
-3. Had issues in the Makefile generation, but there were lot of resources to learn the syntax from.
+2. Code coverage was less. Passed more Unnit Test cases to cover them.
+3. Had issues in the Makefile generation,independent of OS, but there were lot of resources to learn the syntax from.
+4. Since I have an electronics background,a lot of things were new to me.I also had some issues to keep my pace up at the begining but practicing daily helped me to overcome      the lag.
 
 
