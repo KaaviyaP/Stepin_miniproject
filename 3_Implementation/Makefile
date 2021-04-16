@@ -32,6 +32,10 @@ else
 	  EXEC = out
    endif
 endif
+
+# Document files
+DOCUMENTATION_OUTPUT = documentation/html
+
 .PHONY: run clean test doc all
 
 all:
@@ -39,6 +43,11 @@ all:
 	
 run:
 	$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+# Document the code using Doxygen
+doc:
+	make -C ./documentation
+	
 test:
 	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC)) -lm
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
