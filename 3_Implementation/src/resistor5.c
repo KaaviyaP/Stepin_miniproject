@@ -3,17 +3,14 @@
 #include <stdlib.h>
 #include "timer_calculator.h"
 
-  
+/*Function to decode resistor codes */  
 int  decodee( char code );
 
-
-int resistor5(char c1,char c2,char c3,char c4,char c5){
-   
-       
+/*Calculate the resistance value */
+int resistor5(char c1,char c2,char c3,char c4,char c5){     
     int  resistance=0;
     int  color1, color2, color3, color4;  
        
-        
         color1 = decodee( c1 );
         color2 = decodee( c2 );
         color3 = decodee( c3 );
@@ -29,12 +26,9 @@ int resistor5(char c1,char c2,char c3,char c4,char c5){
           printf("ohms\n");
         }
         return resistance;
-        
 }
 
-    
-
-
+/*Decode the resistance codes */
 int decodee( char code )
 {
      switch ( code ) {

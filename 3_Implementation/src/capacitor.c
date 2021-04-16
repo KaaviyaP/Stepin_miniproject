@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "timer_calculator.h"
 
+/* Calculates the capacitance */
 int capacitor(int code){
     
     int cvalue=0;

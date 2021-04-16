@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
     }
 }
 
+/*Displays the menu */
 void menu(void)
 {
     printf("\nAvailable Operations\n");

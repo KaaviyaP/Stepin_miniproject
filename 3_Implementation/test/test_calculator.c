@@ -2,7 +2,7 @@
 #include "unity.h"
 #include "timer_calculator.h"
 
-/* Modify these two lines according to the project */
+
 #include "timer_calculator.h"
 #define PROJECT_NAME    "Calculator"
 
@@ -32,34 +32,35 @@ int main()
   RUN_TEST(test_pulse4);
   RUN_TEST(test_pulse5);
 
-
-
-
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
 
-/* Write all the test functions */ 
+/* Test function to check resistor4 */ 
 void test_resistor4(void) {
   TEST_ASSERT_EQUAL(1000, resistor4('N','B','R','O'));
   TEST_ASSERT_EQUAL(5000, resistor4('G','B','R','R'));
 }
 
+/* Test function to check resistor5 */ 
 void test_resistor5(void) {
   TEST_ASSERT_EQUAL(400000, resistor5('Y','B','B','O','R'));
   TEST_ASSERT_EQUAL(500000, resistor5('G','B','B','O','R'));
 }
 
+/* Test function to check capaitor */ 
 void test_capacitor(void) {
   TEST_ASSERT_EQUAL(200, capacitor(201));
   TEST_ASSERT_EQUAL(520, capacitor(521));
 }
 
+/* Test function to check pulse4 */ 
 void test_pulse4(void) {
   TEST_ASSERT_EQUAL(2.2,pulse4('N','B','R','R',205) );
   TEST_ASSERT_EQUAL(4.4,pulse4('R','B','R','O',205) );
 }
 
+/* Test function to check pulse5 */ 
 void test_pulse5(void) {
   TEST_ASSERT_EQUAL(2.2,pulse5('N','B','B','N','G',205) );
   TEST_ASSERT_EQUAL(92.4,pulse5('V','R','B','N','O',126) );
