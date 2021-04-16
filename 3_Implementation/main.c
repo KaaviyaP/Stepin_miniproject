@@ -10,7 +10,6 @@
 int operation = 0;
 int r=0;
 
-
 char code1 = ' ';
 char code2 = ' ';
 char code3 = ' ';
