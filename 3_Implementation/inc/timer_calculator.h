@@ -13,14 +13,13 @@
 
 
 /**
- * calculates the capacitance of the given code
+ * calculates the capacitance from the given code
  * @param[in] code
  */
 int capacitor(int code);
 
 /**
- * @calculates resistance from codes 
- * @param[in] band
+ * @calculates resistance from 4 codes 
  * @param[in] code1
  * @param[in] code2
  * @param[in] code3
@@ -29,8 +28,7 @@ int capacitor(int code);
 int resistor4(char code1,char code2,char code3,char code4);
 
 /**
- * @calculates resistance from codes 
- * @param[in] band
+ * @calculates resistance from 5 codes 
  * @param[in] code1
  * @param[in] code2
  * @param[in] code3
@@ -40,7 +38,7 @@ int resistor4(char code1,char code2,char code3,char code4);
 int resistor5(char code1,char code2,char code3,char code4,char code5);
 
 /**
- * Calculates the time pulse width
+ * Calculates the time pulse width from 4 resistance codes and a capacitor code
  * @param[in] code1
  * @param[in] code2
  * @param[in] code3
@@ -50,7 +48,7 @@ int resistor5(char code1,char code2,char code3,char code4,char code5);
 double pulse4(char code1,char code2,char code3,char code4,int code);
 
 /**
- * Calculates the time pulse width
+ * Calculates the time pulse width from 5 resistance codes and a capacitor code
  * @param[in] code1
  * @param[in] code2
  * @param[in] code3

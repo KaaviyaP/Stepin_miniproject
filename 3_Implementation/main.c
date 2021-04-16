@@ -140,8 +140,7 @@ void menu(void)
     }
     else
     {
-        printf("\n\t---Wrong choice---\nEnter to continue\n");
-        
+        printf("\n\t---Wrong choice---\nEnter to continue\n");     
         getchar();
         return;
         
@@ -157,8 +156,7 @@ void menu(void)
             getchar();
             break;
         case CAPACITOR:
-            printf("\n\tCapacitance = %d\nEnter to continue",capacitor( code));
-           
+            printf("\n\tCapacitance = %d\nEnter to continue",capacitor( code));       
             getchar();
             break;
         case PULSE4:
@@ -167,15 +165,14 @@ void menu(void)
             getchar();
             break;
         case PULSE5:
-           printf("\n\tPulse Width = %f\nEnter to continue",pulse5( code1, code2, code3,code4,code5, code));
-            
+           printf("\n\tPulse Width = %f\nEnter to continue",pulse5( code1, code2, code3,code4,code5, code));   
             getchar();
             break;
         case 6:
             exit(0);
             break;
         default:
-            printf("\n\t---It should never come here---\n");
+            printf("\n\t---INVALID---\n");
     }
 }
 

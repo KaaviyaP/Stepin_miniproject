@@ -21,7 +21,7 @@ int resistor5(char c1,char c2,char c3,char c4,char c5){
      
         if ( color1 == -999  ||  color2 == -999  ||
           color3 == -999 ||  color4 == -999){
-          printf( "\n\n\tBad code -- cannot compute resistance\n" );}
+          printf( "\n\n\tINVALID CODE\n" );}
      
         else {
           resistance = ( (100*color1)  +  (10*color2) + color3 )* pow( 10, color4 );
