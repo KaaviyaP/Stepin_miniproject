@@ -8,7 +8,7 @@ int  decode( char code );
 
 /*Calculate the resistance value */
 int resistor4(char c1,char c2,char c3,char c4){        
-    int  resistance=0;
+    int  resistance=-1;
     int  color1, color2, color3;      
         
         color1 = decode( c1 );

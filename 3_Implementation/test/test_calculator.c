@@ -41,7 +41,7 @@ void test_resistor4(void) {
   TEST_ASSERT_EQUAL(1000, resistor4('N','B','R','O'));
   TEST_ASSERT_EQUAL(5000, resistor4('G','B','R','R'));
   TEST_ASSERT_EQUAL(8000000, resistor4('A','B','G','R'));
-  TEST_ASSERT_EQUAL(0, resistor4('H','W','V','N'));
+  TEST_ASSERT_EQUAL(-1, resistor4('H','W','V','N'));
   TEST_ASSERT_EQUAL(34000000, resistor4('O','Y','E','N'));
   
 }
@@ -50,13 +50,17 @@ void test_resistor4(void) {
 void test_resistor5(void) {
   TEST_ASSERT_EQUAL(400000, resistor5('Y','B','B','O','R'));
   TEST_ASSERT_EQUAL(500000, resistor5('G','B','B','O','R'));
-  TEST_ASSERT_EQUAL(0, resistor5('E','A','W','H','N'));
+  TEST_ASSERT_EQUAL(-1, resistor5('E','A','W','H','N'));
 }
 
 /* Test function to check capaitor */ 
 void test_capacitor(void) {
   TEST_ASSERT_EQUAL(200, capacitor(201));
   TEST_ASSERT_EQUAL(520, capacitor(521));
+  TEST_ASSERT_EQUAL(47, capacitor(47));
+  TEST_ASSERT_EQUAL(-1, capacitor(1435));
+
+
 }
 
 /* Test function to check pulse4 */ 
