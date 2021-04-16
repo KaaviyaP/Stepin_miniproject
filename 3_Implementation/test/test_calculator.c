@@ -76,5 +76,6 @@ void test_pulse4(void) {
 void test_pulse5(void) {
   TEST_ASSERT_EQUAL(2.2,pulse5('N','B','B','N','G',205) );
   TEST_ASSERT_EQUAL(92.4,pulse5('V','R','B','N','O',126) );
+
 }
 
