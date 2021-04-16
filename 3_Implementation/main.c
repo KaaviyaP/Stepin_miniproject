@@ -21,7 +21,7 @@ int code = 0;
 char cc=' ';
 
 /* Valid operations */
-enum operations{ RESISTOR4=1,RESISTOR5, CAPACITOR, PULSE4, PULSE5, EXIT };
+typedef enum{ RESISTOR4=1,RESISTOR5, CAPACITOR, PULSE4, PULSE5, EXIT } operations;
 
 /* Display the menu of operations supported */
 void menu(void);
