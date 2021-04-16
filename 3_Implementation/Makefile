@@ -64,7 +64,6 @@ coverage:
 	$(RM) *.DAT
 	$(RM) test_calculator.c
 
-
 cppcheck:
 	cppcheck --enable=all $(SRC) main.c
 debug:
