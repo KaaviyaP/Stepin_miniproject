@@ -1,0 +1,19 @@
+name: Document generation using Doxygen
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  cppcheck:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install doxygen
+      run: sudo apt-get -y install doxygen
+    - name: Run doxygen
+      run: make -C Implementation/documentation doc
