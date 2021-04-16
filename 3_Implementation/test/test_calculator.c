@@ -40,6 +40,10 @@ int main()
 void test_resistor4(void) {
   TEST_ASSERT_EQUAL(1000, resistor4('N','B','R','O'));
   TEST_ASSERT_EQUAL(5000, resistor4('G','B','R','R'));
+  TEST_ASSERT_EQUAL(8000000, resistor4('A','B','G','R'));
+  TEST_ASSERT_EQUAL(0, resistor4('H','W','V','N'));
+  TEST_ASSERT_EQUAL(34000000, resistor4('O','Y','E','N'));
+  
 }
 
 /* Test function to check resistor5 */ 
