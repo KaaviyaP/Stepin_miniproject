@@ -71,6 +71,8 @@ void menu(void)
             printf( "\tViolet-----> V\n" );
             printf( "\tGray-------> A\n" );
             printf( "\tWhite------> W\n" );
+            printf( "\tGold-------> Z\n" );
+            printf( "\tSilver-----> S\n" );
             
             printf("\n\tEnter your 4 bands with space between them\n");
             scanf("%c",&cc);
@@ -92,13 +94,15 @@ void menu(void)
             printf( "\tViolet-----> V\n" );
             printf( "\tGray-------> A\n" );
             printf( "\tWhite------> W\n" );
+            printf( "\tGold-------> Z\n" );
+            printf( "\tSilver-----> S\n" );
             
                 printf("\n\tEnter your 5 bands with space between them\n");
                 scanf("%c",&cc);
                 scanf("%c %c %c %c %c",&code1,&code2,&code3,&code4, &code5); 
         }
         else if(operation==CAPACITOR){
-            printf("\n\tEnter your capacitor code\n");
+            printf("\n\tEnter your 1,2 OR 3 digit capacitor code\n");
             
             scanf("%d", &code);
         }
@@ -115,6 +119,8 @@ void menu(void)
             printf( "\tViolet-----> V\n" );
             printf( "\tGray-------> A\n" );
             printf( "\tWhite------> W\n" );
+            printf( "\tGold-------> Z\n" );
+            printf( "\tSilver-----> S\n" );
 
             printf("\n\tEnter your 4 resistor bands codes followed by capacitor code with space between them\n");
            scanf("%c",&cc);
@@ -133,6 +139,8 @@ void menu(void)
             printf( "\tViolet-----> V\n" );
             printf( "\tGray-------> A\n" );
             printf( "\tWhite------> W\n" );
+            printf( "\tGold-------> Z\n" );
+            printf( "\tSilver-----> S\n" );
             printf("\n\tEnter your 5 resistor bands followed by Capacitor code with space between them\n");
            scanf("%c",&cc);
             scanf("%c %c %c %c %c %d", &code1,&code2,&code3,&code4,&code5,&code); 
